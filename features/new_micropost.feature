@@ -7,4 +7,5 @@ Feature: Test new user feature of Toy App
     Given user is on the new micropost page
     When I add new content Brilliance
     And I select user id 1
+    And I click on Create Micropost
     Then micropost was successfully created
