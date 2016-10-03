@@ -11,6 +11,14 @@ gem 'jbuilder',     '2.4.1'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
+#  gem 'mysql2', '~> 0.4.4'
+  gem 'factory_girl_rails'
+  gem 'cucumber-rails', :require => false
+  gem 'rspec'
+  gem 'poltergeist'
+  gem 'capybara'
+  gem 'phantomjs'
+  gem 'database_cleaner'
   gem 'byebug',  '9.0.0', platform: :mri
 end
 
